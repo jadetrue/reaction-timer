@@ -1,0 +1,47 @@
+body {
+			background-color: #ffe3e5;
+			font-family: Calibri, Arial, Serif;
+		}
+		
+		div {
+			width: 50%;
+			border-radius: 10px;
+			text-align: center;
+			padding: 20px;
+		}
+		
+		#information {
+			background-color: #ffa2ab;
+			color: #191011;
+			margin: auto;
+			position: relative;
+			top: 20px;
+		}
+		
+		#game {
+			background-color: #fff;
+			height: 60%;
+			position: relative;
+			top: 40px;
+			margin: auto;
+		}
+		
+		.purple-square {
+			background-color: #660066;
+			display: none;
+		}
+		
+		#shape {
+			height: 50px;
+			width: 50px;
+			border-radius:5px;
+			position: relative;
+		}
+		
+		@media screen and (max-width: 1024px) {
+		
+			div {
+				width: 90%;
+			}
+		
+		}
